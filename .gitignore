@@ -1,0 +1,64 @@
+# ==========================
+# Power BI & Data Projects
+# ==========================
+
+# Power BI temporary and backup files
+*.tmp
+*.bak
+*.backup
+*.log
+~$*
+
+# ==========================
+# System & OS files
+# ==========================
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ==========================
+# IDE / Editor settings
+# ==========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================
+# Python (if used for data prep)
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env/
+.venv/
+venv/
+env/
+*.ipynb_checkpoints
+
+# ==========================
+# SQL (if used)
+# ==========================
+*.bak
+*.sql~
+*.db-journal
+*.sqlite-journal
+
+# ==========================
+# Data files (keep these!)
+# ==========================
+# Do NOT ignore data files you need in Power BI
+# Keep Excel, CSV, JSON, etc.
+!*.csv
+!*.xlsx
+!*.xls
+!*.json
+!*.xml
+
+# ==========================
+# Misc
+# ==========================
+*.zip
+*.rar
+*.7z
